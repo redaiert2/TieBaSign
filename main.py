@@ -268,7 +268,7 @@ def main():
         to_sign = favorites[:]
         all_results = []
 
-        while rounds < 5 and to_sign:  # 当 to_sign 为空时，循环会结束
+        while rounds < 1 and to_sign:  # 当 to_sign 为空时，循环会结束
             rounds += 1
             logger.info(f"开始第 {rounds} 轮签到，待签到贴吧数：{len(to_sign)}")
             results = []
