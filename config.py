@@ -66,7 +66,7 @@ class Config:
 
     HTTP_SETTINGS = {
         "TIMEOUT": 5,   # 请求超时时间（默认5秒）
-        "RETRY_TIMES": 0,   # 重试次数（默认3次）
+        "RETRY_TIMES": 3,   # 重试次数（默认3次）
         "RETRY_DELAY": 1,
         "POOL_CONNECTIONS": 10,
         "POOL_MAXSIZE": 20,
